@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="camera">
+        <h1>Camera</h1>
+        <img src="{{url_for('video_feed')}}"
+            style=
+            "
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 35%;
+            "
+        >
+    </div>
+{% endblock content %}
