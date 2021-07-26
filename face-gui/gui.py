@@ -9,14 +9,6 @@ from datetime import datetime
 def initialize():
     global config, firebase, db, storage, now, root, width, height, rfid_frame, pin_frame, face_scan_frame, cap, face_cascade, recognizer
     config = {
-    "apiKey": "AIzaSyCfTKQ-5sDNvN3QfC6S4oqeKOnbEv7AxzE",
-    "authDomain": "iot-smart-home-door-lock-7ccc9.firebaseapp.com",
-    "databaseURL": "https://iot-smart-home-door-lock-7ccc9.firebaseio.com",
-    "projectId": "iot-smart-home-door-lock-7ccc9",
-    "storageBucket": "iot-smart-home-door-lock-7ccc9.appspot.com",
-    "messagingSenderId": "513607106040",
-    "appId": "1:513607106040:web:d627644390357454e76a0d",
-    "serviceAccount": "iot-smart-home-door-lock-7ccc9-firebase-adminsdk-cq8r7-5b3224a68b.json"
     }
 
     firebase = Firebase(config)
